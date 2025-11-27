@@ -560,14 +560,14 @@
 
 .himage{
     width:100%;
-    display: flex;
-    justify-content: center;
-}
-.image{
-    width: 100%;
-    max-width: 1300px;
-    height: auto;
     display: block;
+    height: auto;
+}
+@media(max-width: 600px){
+    himage{
+        max-height: 200px;
+        object-fit: contain;
+    }
 }
 
         .timeline-content h3 {
